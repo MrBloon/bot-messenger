@@ -1,2 +1,25 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <div id="chatroom" class="rounded">
+        <h1>BOT-CHAT</h1>
+
+        <div id="messages">
+          <ul class="list-unstyled" id="message-list">
+          </ul>
+        </div>
+
+        <form action="#" id="comment-form">
+
+          <div class="form-group">
+            <textarea type="text" name="content" id="your-message" class="form-control" placeholder="Here is my message.."></textarea>
+            <input type="file" name="fileupload" id="file-upload">
+          </div>
+
+          <input type="submit" value="Send" class="btn btn-primary">
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
